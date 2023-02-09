@@ -1,7 +1,7 @@
 ---
 layout: content
 title: About
-permalink: /about/
+permalink: paper-jekyll-theme/about/
 ---
 Hi, I'm Johnny and I live in the Shire. Thanks for visiting my site.
 
@@ -18,5 +18,5 @@ I'd love to hear your feedback on this site and my work.
 ## Etcetera
 
 - [Instagram](https://www.instagram.com/) for 📸
-- [Facebook](https://www.facebook.com/) for 🕺
+
 
