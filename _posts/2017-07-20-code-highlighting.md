@@ -17,12 +17,17 @@ Syntax highlighting is a feature that displays source code, in different colors 
 To modify styling and highlight colors edit `/_sass/_highlighter.scss`.
 
 
-```css
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
+```python
+from PIL import Image, ImageDraw
+import os
+
+img_path='' # 파일 경로 지정
+img = Image.open(img_path)
+
+draw = ImageDraw.Draw(img)
+draw.rectangle((130, 30, 670, 450), outline=(0,255,0), width=2)
+
+img
 ```
 
 ```html
